@@ -1,2 +1,6 @@
 # mocking-bites
-Files for mocking bite challenges at Makers Academy
+
+
+In this repo I have the files I have worked on under the mocking-bites challenges at Makers.
+
+I have collaborated with multiple users to complete these challenges.
