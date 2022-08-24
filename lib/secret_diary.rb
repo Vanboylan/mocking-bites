@@ -5,7 +5,7 @@ class SecretDiary
     end
   
     def read
-      @lock == true ? "Go away!" : @diary.read_it
+      @lock == true ? "Go away!" : @diary.read
     end
   
     def lock

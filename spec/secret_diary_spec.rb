@@ -14,7 +14,7 @@ RSpec.describe SecretDiary do
   end
 
   it "allows reading when unlocked" do
-    fake_diary_entry = double(:fake_diary_entry, read_it: "My little secret")
+    fake_diary_entry = double(:fake_diary_entry, read: "My little secret")
     promises = SecretDiary.new(fake_diary_entry)
     promises.unlock
     expect(promises.read).to eq "My little secret"
