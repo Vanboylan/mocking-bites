@@ -16,3 +16,4 @@ class SecretDiary
       @lock = false
     end
   end
+  
