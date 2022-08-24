@@ -8,6 +8,6 @@ RSpec.describe Diary do
 
   it "allows reading of the diary" do
     diary = Diary.new("Hello, world!")
-    expect(diary.read_it).to eq "Hello, world!"
+    expect(diary.read).to eq "Hello, world!"
   end
 end

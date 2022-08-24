@@ -3,7 +3,7 @@ class Diary
       @contents = contents
     end
   
-    def read_it
+    def read
       @contents
     end
   end
